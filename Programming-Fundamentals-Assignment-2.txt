@@ -99,4 +99,12 @@ Implicit (Automatic) Narrowing Primitive Conversions:
     
 Explicit Narrowing Conversions (Casting):
 	Explicit narrowing conversions (casting) occur when a programmer explicitly converts a value of a larger data type to a variable of a smaller data type. This process involves explicitly stating the desired type through casting. The programmer must explicitly acknowledge the possibility of data loss during the conversion because the target data type may not be able to represent the full range of values of the source data type. 
+	
+Conditions for Implicit Narrowing Primitive Conversion:
+An implicit narrowing primitive conversion can occur if the following conditions are met:
+
+    1. The value of the source data type is within the valid range of the target data type.
+    2. No precision loss occurs during the conversion.
+
+
 
