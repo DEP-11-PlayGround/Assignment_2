@@ -78,3 +78,17 @@ public class WideningConversionEx2 {
 }
 
 
+
+Question 05
+
+In Java, the terms "run-time constant" and "compile-time constant" refer to different types of constants based on when their values are determined during the program's life cycle:
+
+Compile-time constant:
+    A compile-time constant is a constant whose value is known and can be computed by the compiler at compile time. The compiler replaces references to compile-time constants with their actual values during the compilation process, and these values are fixed and cannot change during runtime.
+    
+Run-time constant:
+	A run-time constant is a constant whose value is determined and known only during runtime. The value of a run-time constant can be computed during program execution, and it is not known until the program runs.    
+
+
+
+
