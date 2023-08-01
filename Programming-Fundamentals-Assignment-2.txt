@@ -1,0 +1,13 @@
+Question 01
+
+Statically Typed Language
+	A statically typed language is a programming language in which the data types of variables are known and checked at compile time, before the program is executed. This means that variables must be explicitly declared with their data types, and the compiler enforces type safety by ensuring that operations and assignments are performed only on compatible data types. If there is a type mismatch, the compiler generates an error, preventing many potential runtime errors. Statically typed languages offer better performance and can catch certain bugs early in the development process, but they often require more explicit type annotations compared to dynamically typed languages. Examples of statically typed languages include Java, C++, and Swift.
+	
+Dynamically Typed Language 
+	A dynamically typed language is a programming language in which the data types of variables are determined at runtime, during program execution. Unlike statically typed languages, there is no need to explicitly declare variable types; the type of a variable is automatically inferred based on the value it holds. This flexibility allows for more concise code and rapid development but can lead to potential type-related errors during runtime if not handled properly. Dynamically typed languages include Python and JavaScript.	
+	
+Strongly Typed Language 
+	A strongly typed language is a programming language that enforces strict type checking, ensuring that variables and expressions are used only in ways that are compatible with their declared data types. In a strongly typed language, the compiler or interpreter actively checks and enforces type rules, preventing certain type-related errors during compilation or runtime. This approach promotes safety and reliability, as it reduces the risk of unexpected behaviors due to type conversions or mismatched data types. Examples of strongly typed languages are Java and C#.	
+	
+Loosely Typed Language 
+	A loosely typed language is a programming language that allows for more flexible handling of data types. In contrast to strongly typed languages, loosely typed languages do not enforce strict type checking, and variables can change their data type dynamically during program execution without explicit type declarations. This flexibility can lead to concise and expressive code, but it also increases the risk of type-related errors and may require additional effort to ensure data consistency and safety. Examples of loosely typed languages include JavaScript and PHP.	
