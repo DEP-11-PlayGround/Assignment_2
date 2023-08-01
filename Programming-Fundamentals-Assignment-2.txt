@@ -27,3 +27,33 @@ Case Sensitive-Insensitive:
     Some programming languages can be a combination of case sensitive and case insensitive. For example, variable names might be case sensitive, while keywords (reserved words) are case insensitive.
 
 Regarding Java, it is a case-sensitive programming language. Java distinguishes between uppercase and lowercase characters in identifiers, making 'Hello' and 'hello' two distinct identifiers in Java. This means you need to be consistent with the capitalization when using variable names, class names, method names, and other identifiers in your Java code.
+
+
+Question 03
+
+In Java, an identity conversion is a type conversion that requires no actual conversion at all. It is the most straightforward form of type compatibility, where a value can be assigned to a variable or passed to a method without any modification because the source and target types are the same. The Java compiler performs identity conversions implicitly, ensuring type safety without the need for explicit casting.
+
+ex 1:
+public class IdentityConversionEx1 {
+    public static void main(String[] args) {
+        int x = 42;
+        int y = x; 
+        
+        System.out.println("x: " + x); 
+        System.out.println("y: " + y); 
+             
+ ex2:
+ public class IdentityConversionEx2 {
+    public static void main(String[] args) {
+        String name = "John";
+        String copyOfName = name; 
+                
+        System.out.println("name: " + name); 
+        System.out.println("copyOfName: " + copyOfName); 
+ }
+}
+
+
+
+
+
