@@ -90,5 +90,13 @@ Run-time constant:
 	A run-time constant is a constant whose value is determined and known only during runtime. The value of a run-time constant can be computed during program execution, and it is not known until the program runs.    
 
 
+Question 06
 
+	Implicit (Automatic) Narrowing Primitive Conversions and Explicit Narrowing Conversions (Casting) are two ways to convert data between primitive data types with a smaller range to those with a larger range. The key difference between them lies in how the conversions are performed and the involvement of the programmer in the process.
+
+Implicit (Automatic) Narrowing Primitive Conversions:
+    Implicit narrowing primitive conversions occur automatically by the Java compiler when a value of a larger data type is assigned to a variable of a smaller data type. The conversion is performed without any explicit casting, and the compiler ensures that no data loss occurs during the conversion. This conversion happens when the target data type can represent the range of values of the source data type without losing information.
+    
+Explicit Narrowing Conversions (Casting):
+	Explicit narrowing conversions (casting) occur when a programmer explicitly converts a value of a larger data type to a variable of a smaller data type. This process involves explicitly stating the desired type through casting. The programmer must explicitly acknowledge the possibility of data loss during the conversion because the target data type may not be able to represent the full range of values of the source data type. 
 
