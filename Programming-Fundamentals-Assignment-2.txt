@@ -11,3 +11,19 @@ Strongly Typed Language
 	
 Loosely Typed Language 
 	A loosely typed language is a programming language that allows for more flexible handling of data types. In contrast to strongly typed languages, loosely typed languages do not enforce strict type checking, and variables can change their data type dynamically during program execution without explicit type declarations. This flexibility can lead to concise and expressive code, but it also increases the risk of type-related errors and may require additional effort to ensure data consistency and safety. Examples of loosely typed languages include JavaScript and PHP.	
+	
+	
+Question 02
+
+Case Sensitive:
+    A programming language is considered case sensitive when it distinguishes between uppercase and lowercase characters in identifiers (such as variable names, function names, and keywords). This means that 'Hello' and 'hello' are treated as two different identifiers, and the language would recognize them as separate entities.
+	Ex (Java):  int myVariable = 10; and int MyVariable = 20; are two different variables due to case sensitivity.
+
+Case Insensitive:
+    A programming language is considered case insensitive when it does not differentiate between uppercase and lowercase characters in identifiers. In this case, 'Hello' and 'hello' would be treated as the same identifier, and the language would treat them interchangeably.
+	Ex (SQL): SELECT * FROM myTable; and select * from MyTable; are SQL statements are equivalent due to case insensitivity.
+
+Case Sensitive-Insensitive:
+    Some programming languages can be a combination of case sensitive and case insensitive. For example, variable names might be case sensitive, while keywords (reserved words) are case insensitive.
+
+Regarding Java, it is a case-sensitive programming language. Java distinguishes between uppercase and lowercase characters in identifiers, making 'Hello' and 'hello' two distinct identifiers in Java. This means you need to be consistent with the capitalization when using variable names, class names, method names, and other identifiers in your Java code.
