@@ -54,6 +54,27 @@ public class IdentityConversionEx1 {
 }
 
 
+Question 04
 
+	Primitive widening conversion in Java is an automatic type conversion that occurs when a value of a smaller data type is assigned to a variable of a larger data type. The Java compiler performs this conversion implicitly, without the need for explicit casting, to ensure that no data loss occurs during the assignment.
+	
+Example 1: byte to int
+
+public class WideningConversionEx1 {
+    public static void main(String[] args) {
+        byte smallNumber = 10;
+        int largerNumber = smallNumber; 
+    }
+}
+
+
+Example 2: short to long
+
+public class WideningConversionEx2 {
+    public static void main(String[] args) {
+        short smallValue = 1000;
+        long largeValue = smallValue;
+   }    
+}
 
 
