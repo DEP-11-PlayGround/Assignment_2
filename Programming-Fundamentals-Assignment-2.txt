@@ -112,3 +112,19 @@ Question 07
 	The assignment of a long data type (64 bits) into a float data type (32 bits) in Java involves a type conversion known as a narrowing primitive conversion. Java allows this conversion, but it is important to understand that it may result in a loss of precision. The discrepancy arises due to the difference in how long and float data types store their values and the range they can represent. In Java, the long data type is a 64-bit signed integer, which can represent integer values in the range of approximately -9.2 quintillion to +9.2 quintillion. On the other hand, the float data type is a 32-bit single-precision floating-point number, which can represent fractional values with a much larger range but with less precision than long.
 
 	When you assign a long value to a float variable, the compiler performs an implicit narrowing primitive conversion, which essentially truncates the long value to fit within the float's 32-bit representation. This truncation can lead to a loss of precision, particularly when the long value has significant digits beyond the 32-bit range.
+	
+
+Question 08
+
+The choice of int as the default data type for integer literals and double as the default data type for floating-point literals in Java is primarily driven by a balance between performance and precision. This design decision takes into consideration the common use cases and aims to provide a practical and efficient approach to handling numeric literals.
+
+int as the default data type for integer literals:
+    Java uses int as the default data type for integer literals because 32-bit integers (int) cover a wide range of practical use cases, from small to moderately large whole numbers. Most integer computations fall within this range, making int the most efficient choice in terms of memory consumption and performance. Additionally, modern computer architectures are optimized for 32-bit integer operations, which further enhances the performance of int.
+
+double as the default data type for floating-point literals:
+    Java uses double as the default data type for floating-point literals because 64-bit double-precision floating-point numbers offer a good balance between precision and performance. double provides a high level of accuracy for a wide range of real-world applications, such as scientific computations, financial calculations, and graphics rendering. It can represent a vast range of values with reasonable precision and is the most commonly used floating-point type in many programming languages. The use of double as the default floating-point type is influenced by the IEEE 754 standard, which defines the representation and arithmetic behavior of floating-point numbers. The widespread adoption of this standard in hardware and software implementations makes double the most efficient choice for handling floating-point computations. 
+    By defaulting to int and double, Java ensures that most numeric calculations are efficient and reasonably accurate for typical programming tasks. However, programmers have the flexibility to explicitly specify other data types when more precision or performance is required, or when dealing with specific use cases like large integers (long) or higher precision floating-point numbers (BigDecimal).
+
+
+
+
