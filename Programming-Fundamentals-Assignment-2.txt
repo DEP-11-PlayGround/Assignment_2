@@ -107,4 +107,8 @@ An implicit narrowing primitive conversion can occur if the following conditions
     2. No precision loss occurs during the conversion.
 
 
+Question 07
 
+	The assignment of a long data type (64 bits) into a float data type (32 bits) in Java involves a type conversion known as a narrowing primitive conversion. Java allows this conversion, but it is important to understand that it may result in a loss of precision. The discrepancy arises due to the difference in how long and float data types store their values and the range they can represent. In Java, the long data type is a 64-bit signed integer, which can represent integer values in the range of approximately -9.2 quintillion to +9.2 quintillion. On the other hand, the float data type is a 32-bit single-precision floating-point number, which can represent fractional values with a much larger range but with less precision than long.
+
+	When you assign a long value to a float variable, the compiler performs an implicit narrowing primitive conversion, which essentially truncates the long value to fit within the float's 32-bit representation. This truncation can lead to a loss of precision, particularly when the long value has significant digits beyond the 32-bit range.
